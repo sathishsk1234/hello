@@ -1,5 +1,7 @@
- a=int(input())
-if a>=0:
-    print("Positive")
+n=int(input())
+if n%2==0:
+    print("Even")
+elif n%2!=0:
+    print("Odd")
 else:
-    print("Negative")
+    print("invalid input")
